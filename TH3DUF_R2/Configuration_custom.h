@@ -22,7 +22,7 @@
 
   /* Manual Mesh Leveling */
   #define MANUAL_MESH_LEVELING
-  /* G28 disables bed leveling. Follow with M420 S to turn leveling on,
+  /* G28 disables bed leveling. Follow with M420 S1 to turn leveling on (in cura, after G28),
    * or use RESTORE_LEVELING_AFTER_G28 to automatically keep leveling on after G28.
    * http://marlinfw.org/docs/gcode/G029-mbl.html
    */
