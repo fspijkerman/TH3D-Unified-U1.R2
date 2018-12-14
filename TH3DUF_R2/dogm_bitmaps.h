@@ -43,6 +43,8 @@
         #include "_BootscreenTORNADO.h"
       #elif ENABLED(ENDER_BOOT)
         #include "_BootscreenENDER.h"
+      #elif ENABLED(DICKBUTT_BOOT)
+        #include "_BootscreenDickButt.h"
       #else
         #include "_Bootscreen.h"
       #endif  

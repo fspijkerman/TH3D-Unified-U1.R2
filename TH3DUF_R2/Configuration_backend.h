@@ -1999,7 +1999,11 @@
   #define MESH_BED_LEVELING
   #define MBL_Z_STEP 0.025    
   #define LCD_PROBE_Z_RANGE 4 
-  #define MESH_INSET 10          
+  #if ENABLED(ENDER_AWESOME)
+    #define MESH_INSET 20
+  #else
+    #define MESH_INSET 10
+  #endif
   #define GRID_MAX_POINTS_X 5    
   #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
 #endif
