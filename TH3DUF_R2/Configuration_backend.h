@@ -1999,7 +1999,7 @@
   #define MESH_BED_LEVELING
   #define MBL_Z_STEP 0.025    
   #define LCD_PROBE_Z_RANGE 4 
-  #if ENABLED(ENDER_AWESOME)
+  #if ENABLED(ENDER_ANDY)
     #define MESH_INSET 20
   #else
     #define MESH_INSET 10

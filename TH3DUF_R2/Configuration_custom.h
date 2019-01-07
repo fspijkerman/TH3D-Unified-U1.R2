@@ -1,10 +1,10 @@
 #ifndef CONFIGURATION_CUSTOM_H
 #define CONFIGURATION_CUSTOM_H
 
-#define ENDER_AWESOME
-#if ENABLED(ENDER_AWESOME)
+#define ENDER_ANDY
+#if ENABLED(ENDER_ANDY)
   #define ENDER3
-  #define USER_PRINTER_NAME "Ender 3"
+  #define USER_PRINTER_NAME "Andy"
 
   /* Enabled, but not used, only when _K is set.
    * http://marlinfw.org/docs/features/lin_advance.html
